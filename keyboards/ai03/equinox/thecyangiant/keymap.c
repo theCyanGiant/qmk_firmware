@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //------------------------------------------------------------------------------------------
 /* 2
 ,_______ ______ ______ ______ ______ ______ ______ ______ ______ ______ _______ _________
-| GRV   |      |      |      |      |      |      |      |      | _    | +     | DEL     |
+| PSCRN |      |      |      |      |      |      |      |      | _    | +     | DEL     |
 |       |      |      |      |      |      |      |      |      | -    | =     |         |
 |_______|______|______|______|______|______|______|______|______|______|_______|_________|
 | CTRL    | VolU | VolD | Mute | Play/|      | Home | PgDN | PgUP | End  | "    | |      |
@@ -96,7 +96,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 */
 
   [2] = LAYOUT_all( /* FN media */
-    KC_GRV,    _______, _______, _______,  _______, _______, _______, _______, _______, KC_MINS, KC_EQL, KC_DEL, 
+    KC_PSCR,   _______, _______, _______,  _______, _______, _______, _______, _______, KC_MINS, KC_EQL, KC_DEL, 
     TD(TD_CB), KC_VOLU, KC_VOLD, KC_MUTE,  KC_MPLY, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END, KC_QUOT, KC_BSLS, 
     KC_F1,     KC_F2,   KC_F3,   KC_F4,    KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10, KC_F11,  KC_F12,
     _______,   XXXXXXX, MO(3),             KC_BSPC,          _______,          _______, _______, XXXXXXX, _______
