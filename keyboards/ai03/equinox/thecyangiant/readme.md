@@ -1,5 +1,5 @@
 # theCyanGiant variant of the equinox, based on the crd keymap
-# make ai03/equinox/rev1:thecyangiant
+## make ai03/equinox/rev1:thecyangiant
 
 
     BASE   BASE    BASE    BASE    BASE    BASE    BASE    BASE    BASE    BASE    BASE
