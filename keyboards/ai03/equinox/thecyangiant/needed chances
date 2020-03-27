@@ -1,0 +1,2 @@
+cannot access backtick, include fn in L1
+Move fn row to r1 so access to shift is included, move delete to rcontrol
